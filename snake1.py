@@ -48,7 +48,7 @@ while True:
         while food is None:
             nf = [
                 random.randit(1, sh-1),
-                random.randit(1. sw-1)
+                random.randit(1, sw-1)
             ]
             food = nf if nf not in snake else None
         w.addch(food[0], food[1], curses.ACS_PI)
