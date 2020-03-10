@@ -1,0 +1,2 @@
+improt snake
+snake.snake()
