@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=rbasThWVb-c
+
+Followed the above ulr, rand into "_curses.error: curs_set() returned ERR"
+found the terminal type was something call VT100, used command "export TERM=xterm" to change this.
+
+Newiest error "[snk_y, snk_x-1]
+    TypeError: list indices must be integers or slices, not tuple"
+

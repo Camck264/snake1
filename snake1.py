@@ -12,8 +12,8 @@ w.timeout(100)
 snk_x = sw/4
 snk_y = sh/2
 snake = [
-    [snk_y, snk_x]
-    [snk_y, snk_x-1]
+    [snk_y, snk_x],
+    [snk_y, snk_x-1],
     [snk_y, snk_x-2]
 ]
 
