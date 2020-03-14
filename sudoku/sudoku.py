@@ -1,4 +1,5 @@
 import turtle
+import tkinter
 from random import randit, shuffle
 from time import sleep
 
@@ -61,7 +62,7 @@ def checkGrid(grid):
             if grid[row][col]==0:
                 return False
 
-return True
+    return True
 
 def solveGrid(grid):
     global counter
