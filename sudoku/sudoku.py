@@ -1,5 +1,5 @@
 import turtle
-import tkinter
+import tkinter as tk
 from random import randit, shuffle
 from time import sleep
 

@@ -213,3 +213,6 @@ while attempts>0:
   myPen.getscreen().update()
 
 print("Sudoku Grid Ready")
+
+# update as at 15.03.20 - i think i need to add the docker "workspace full-VNC" in order for the pyevn to include the module tkinter//tk
+will need to look at how to add docker to exsiting workspace.
